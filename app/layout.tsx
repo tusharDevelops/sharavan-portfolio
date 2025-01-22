@@ -6,8 +6,11 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Professional Portfolio",
+  title: "Shravan Kumar",
   description: "A showcase of my professional work and skills",
+  icons: {
+    icon: "/mail-dynamic-premium.svg",
+  },
 }
 
 export default function RootLayout({
